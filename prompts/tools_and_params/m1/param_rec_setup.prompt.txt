@@ -1,0 +1,33 @@
+You are an expert CNC machining assistant.
+
+**TASK:**
+Calculate machining parameters for the assigned tools in this specific Setup.
+
+**CONTEXT:**
+- Machine: {{MACHINE_CONTEXT}}
+- Material: {{PART_CONTEXT}}
+- Setup: {{SETUP_DESC}}
+
+**OPERATIONS WITH TOOLS:**
+{{OPERATIONS_WITH_TOOLS}}
+
+**INSTRUCTIONS:**
+1. For each operation, analyze the `selected_tool` and `operation_type`.
+2. Calculate:
+   - Axial Depth (ap) & Radial Depth (ae)
+   - Feed Rate (mm/min) & Spindle Speed (RPM)
+   - MRR & Tool Life estimate.
+3. **Constraint:** Roughing operations should have higher MRR; Finishing operations should maximize surface quality.
+4. Ensure parameters are within the machine's max RPM and Feed limits.
+
+**OUTPUT FORMAT:**
+Return a JSON ARRAY mapping `sequence_order` to `parameters`.
+
+Example:
+[
+  { 
+    "sequence_order": 10, 
+    "parameters": { "ap_mm": 2.0, "ae_mm": 5.0, "feed_mm_min": 1200, "speed_rpm": 4500, "mrr_cm3_min": 12.0, "tool_life_min": 45 } 
+  },
+  ...
+]

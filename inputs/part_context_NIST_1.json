@@ -1,0 +1,14 @@
+{
+  "rawPartDimensions": {
+    "length": "800",
+    "width": "450",
+    "height": "150"
+  },
+  "machinedPartDimensions": {
+    "length": "800",
+    "width": "450",
+    "height": "150"
+  },
+  "material": "n | nonferrous",
+  "subMaterial": "aluminum"
+}

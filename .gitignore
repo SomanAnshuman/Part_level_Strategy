@@ -1,0 +1,23 @@
+# --------------------
+# Environment secrets
+# --------------------
+.env
+.env.*
+
+# --------------------
+# Dependencies
+# --------------------
+node_modules/
+
+# --------------------
+# AI Generated Logs/Outputs
+# --------------------
+logs/
+outputs/
+
+# --------------------
+# Google Sheets tools
+# --------------------
+credentials.json
+compile_results.py
+compile_tool_results.py

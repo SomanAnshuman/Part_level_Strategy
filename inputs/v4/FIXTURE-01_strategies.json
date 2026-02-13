@@ -1,0 +1,598 @@
+{
+  "94f34c31-cd15-45dd-ad0b-7d43d8a61285": {
+    "passes": [
+      {
+        "pass": "Centering",
+        "operations": [
+          {
+            "operation": "Centering",
+            "location": "Hole",
+            "tool_paths": [
+              {
+                "tool_path_type": "hole_making",
+                "tool_path": "Spot Drilling",
+                "tool_path_syntax": "SPOT_DRILLING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Spot drill",
+                  "Center drill"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Drilling",
+            "location": "Hole",
+            "tool_paths": [
+              {
+                "tool_path_type": "hole_making",
+                "tool_path": "Drilling",
+                "tool_path_syntax": "DRILLING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Drill"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": "Countersinking/Counterboring",
+        "operations": [
+          {
+            "operation": "Hole milling - Roughing",
+            "location": "Counterbore",
+            "tool_paths": [
+              {
+                "tool_path_type": "hole_making",
+                "tool_path": "Hole Milling",
+                "tool_path_syntax": "HOLE_MILLING",
+                "tool_path_style": "Circular",
+                "tool_types": [
+                  "Flat end mill"
+                ]
+              }
+            ]
+          },
+          {
+            "operation": "Hole milling - Finishing",
+            "location": "Counterbore",
+            "tool_paths": [
+              {
+                "tool_path_type": "hole_making",
+                "tool_path": "Hole Milling",
+                "tool_path_syntax": "HOLE_MILLING",
+                "tool_path_style": "Circular",
+                "tool_types": [
+                  "Flat end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "3344400b-64d2-4ae9-86a1-e7369a76c300": {
+    "passes": [
+      {
+        "pass": "Roughing",
+        "operations": [
+          {
+            "operation": "Face milling",
+            "location": "Face",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "FACE_MILL_ZIGZAG*",
+                "tool_path_syntax": "FACE_MILL_ZIGZAG",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Face milling",
+            "location": "Face",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "FACE_MILL_ZIGZAG*",
+                "tool_path_syntax": "FACE_MILL_ZIGZAG",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1abaa489-0758-4a5b-89b4-20477d85225d": {
+    "passes": [
+      {
+        "pass": "Roughing",
+        "operations": [
+          {
+            "operation": "Face milling",
+            "location": "Face",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "FACE_MILL_ZIGZAG*",
+                "tool_path_syntax": "FACE_MILL_ZIGZAG",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Face milling",
+            "location": "Face",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "FACE_MILL_ZIGZAG*",
+                "tool_path_syntax": "FACE_MILL_ZIGZAG",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "3ccfa1eb-664f-4f5e-b510-b1eee98f7800": {
+    "passes": [
+      {
+        "pass": "Roughing",
+        "operations": [
+          {
+            "operation": "Side milling",
+            "location": "Parallel to face vertically",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Side milling",
+            "location": "Parallel to face vertically",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "36c50f03-f072-4f3b-9c5c-1b2bae6e8fb3": {
+    "passes": [
+      {
+        "pass": "Roughing",
+        "operations": [
+          {
+            "operation": "Side milling",
+            "location": "Parallel to face vertically",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Side milling",
+            "location": "Parallel to face vertically",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8d0f7374-5ecc-4420-a62f-b3a19d02af38": {
+    "passes": [
+      {
+        "pass": "Roughing",
+        "operations": [
+          {
+            "operation": "Side milling",
+            "location": "Parallel to face vertically",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Side milling",
+            "location": "Parallel to face vertically",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "559a31a7-8363-48ac-ae48-4ca3f27c9549": {
+    "passes": [
+      {
+        "pass": "Roughing",
+        "operations": [
+          {
+            "operation": "Side milling",
+            "location": "Parallel to face vertically",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Side milling",
+            "location": "Parallel to face vertically",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Flat end mill",
+                  "Bull nose end mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "4db641b5-889d-4b88-9096-d4163f12cbb3": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Plunge milling",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "hole_making",
+                "tool_path": "Spot Drilling",
+                "tool_path_syntax": "SPOT_DRILLING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "7dfb36f9-e407-430e-886f-8da32f33f10d": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Plunge milling",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "hole_making",
+                "tool_path": "Spot Drilling",
+                "tool_path_syntax": "SPOT_DRILLING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "b4d819a9-b92c-45d0-886b-6e612af057a5": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Contouring",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "db1010ab-47ee-4d9b-a84e-1496018fa93c": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Contouring",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fd1442c1-7e9a-470e-af45-aa7a95f856e3": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Contouring",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8b692ac6-8de6-4ae2-b4c2-9713ae9bd300": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Contouring",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fad28476-80b7-41ed-9107-cf438b596e29": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Contouring",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "c2b205ce-fb9b-4cf4-9ccc-3ad5da25ce46": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Contouring",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "e0ca429b-fe89-478c-b05c-b995ec43fae9": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Contouring",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "c5070746-48d9-42d2-85fa-ccfc9963361c": {
+    "passes": [
+      {
+        "pass": "Finishing",
+        "operations": [
+          {
+            "operation": "Contouring",
+            "location": "Chamfer",
+            "tool_paths": [
+              {
+                "tool_path_type": "mill_Planar",
+                "tool_path": "2D profile Wall without floor",
+                "tool_path_syntax": "WALL_PROFILING",
+                "tool_path_style": null,
+                "tool_types": [
+                  "Chamfer mill"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

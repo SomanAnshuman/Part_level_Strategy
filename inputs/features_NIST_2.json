@@ -1,0 +1,1861 @@
+[
+  {
+    "feature_id": "d668d12e-dfe1-4891-a15f-34b0f46420d9",
+    "feature_type": "hole",
+    "feature_info": {
+      "hole": "solid",
+      "quantity": 2,
+      "depth": 0.135,
+      "diameter": {
+        "upper_tolerance": 0.0039,
+        "value": 0.242,
+        "lower_tolerance": -0.0039
+      },
+      "sequential": "no",
+      "horizontal_clearance": 3.384,
+      "bottom_type": "through",
+      "vertical_clearance": 1.765,
+      "surface_type": "flat"
+    },
+    "feature_name": "simple_hole",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00001e1600000023",
+        "RMNIST_Part2_stp.prt R00001f6200000023"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 0,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Through Hole 3",
+      "Through Hole 4"
+    ],
+    "position_info": [
+      {
+        "X": 2.75,
+        "Y": 0.9999999999999976,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": 2.75,
+        "Y": -2.650000000000002,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "d4653381-71ff-4038-83e8-8e604e9d7b60",
+    "feature_type": "hole",
+    "feature_info": {
+      "hole": "solid",
+      "quantity": 2,
+      "depth": 0.135,
+      "diameter": {
+        "upper_tolerance": 0.002,
+        "value": 0.228,
+        "lower_tolerance": -0.002
+      },
+      "sequential": "no",
+      "horizontal_clearance": 1.734,
+      "bottom_type": "through",
+      "vertical_clearance": 1.765,
+      "surface_type": "flat"
+    },
+    "feature_name": "simple_hole",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R000020ae00000023",
+        "RMNIST_Part2_stp.prt R000021fa00000023"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 0,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Through Hole 5",
+      "Through Hole 6"
+    ],
+    "position_info": [
+      {
+        "X": 2.75,
+        "Y": 2.6499999999999977,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": 2.75,
+        "Y": -1.0000000000000024,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "764d200f-ddc8-465f-93a3-4208d432c353",
+    "feature_type": "hole",
+    "feature_info": {
+      "hole": "solid",
+      "quantity": 2,
+      "depth": 0.135,
+      "diameter": {
+        "upper_tolerance": 0.0039,
+        "value": 0.25,
+        "lower_tolerance": -0.0039
+      },
+      "sequential": "no",
+      "horizontal_clearance": 1.309,
+      "bottom_type": "through",
+      "vertical_clearance": 1.765,
+      "surface_type": "flat"
+    },
+    "feature_name": "simple_hole",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R0000234600000023",
+        "RMNIST_Part2_stp.prt R0000249200000023"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 0,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Through Hole 7",
+      "Through Hole 8"
+    ],
+    "position_info": [
+      {
+        "X": 4.3,
+        "Y": 3.0749999999999984,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": 4.3,
+        "Y": 0.8249999999999975,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "3bad64be-b452-4ba5-8e09-0ee41a3cc636",
+    "feature_type": "hole",
+    "feature_info": {
+      "hole": "solid",
+      "quantity": 10,
+      "depth": 0.135,
+      "diameter": {
+        "upper_tolerance": 0.002,
+        "value": 0.213,
+        "lower_tolerance": -0.002
+      },
+      "sequential": "no",
+      "horizontal_clearance": 2.194,
+      "bottom_type": "through",
+      "vertical_clearance": 1.765,
+      "surface_type": "flat"
+    },
+    "feature_name": "simple_hole",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R000025de00000023",
+        "RMNIST_Part2_stp.prt R0000272a00000023",
+        "RMNIST_Part2_stp.prt R0000287600000023",
+        "RMNIST_Part2_stp.prt R000029c200000023",
+        "RMNIST_Part2_stp.prt R00002b0e00000023",
+        "RMNIST_Part2_stp.prt R00002c5a00000023",
+        "RMNIST_Part2_stp.prt R00002da600000023",
+        "RMNIST_Part2_stp.prt R00002ef200000023",
+        "RMNIST_Part2_stp.prt R0000303e00000023",
+        "RMNIST_Part2_stp.prt R0000318a00000023"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 0,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Through Hole 9",
+      "Through Hole 10",
+      "Through Hole 11",
+      "Through Hole 12",
+      "Through Hole 13",
+      "Through Hole 14",
+      "Through Hole 15",
+      "Through Hole 16",
+      "Through Hole 17",
+      "Through Hole 18"
+    ],
+    "position_info": [
+      {
+        "X": -1.5000000000000002,
+        "Y": 2.1899999999999973,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": 0.25,
+        "Y": 2.1899999999999973,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": 1.19,
+        "Y": 0.9999999999999966,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": 1.19,
+        "Y": -1.0000000000000024,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": 0.24999999999999803,
+        "Y": -2.190000000000002,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": -1.5000000000000002,
+        "Y": -2.190000000000002,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": -3.25,
+        "Y": -2.190000000000002,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": -4.19,
+        "Y": -1.0000000000000024,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": -4.19,
+        "Y": 0.9999999999999976,
+        "Z": 0.13499999999999815
+      },
+      {
+        "X": -3.25,
+        "Y": 2.1899999999999973,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "a2f853c4-ca2f-4699-b464-f6a1bb90bf04",
+    "feature_type": "hole",
+    "feature_info": {
+      "hole": "solid",
+      "quantity": 4,
+      "depth": 0.4,
+      "diameter": {
+        "upper_tolerance": 0.0039,
+        "value": 0.238,
+        "lower_tolerance": -0.0039
+      },
+      "sequential": "no",
+      "horizontal_clearance": 0.509,
+      "bottom_type": "through",
+      "vertical_clearance": 0,
+      "surface_type": "flat"
+    },
+    "feature_name": "simple_hole",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R000032d600000023",
+        "RMNIST_Part2_stp.prt R0000342200000023",
+        "RMNIST_Part2_stp.prt R0000356e00000023",
+        "RMNIST_Part2_stp.prt R000036ba00000023"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 0,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Through Hole 19",
+      "Through Hole 20",
+      "Through Hole 21",
+      "Through Hole 22"
+    ],
+    "position_info": [
+      {
+        "X": 5.625,
+        "Y": 3.874999999999998,
+        "Z": 1.8999999999999981
+      },
+      {
+        "X": -5.625,
+        "Y": 3.874999999999998,
+        "Z": 1.8999999999999981
+      },
+      {
+        "X": 5.625,
+        "Y": -3.875000000000002,
+        "Z": 1.8999999999999981
+      },
+      {
+        "X": -5.625,
+        "Y": -3.875000000000002,
+        "Z": 1.8999999999999981
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "449726a8-87c3-4817-ba50-28ece0866b11",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "stock_to_remove": 0.004,
+      "horizontal_clearance": 1.687,
+      "width": 7.828,
+      "length": 11.258,
+      "finishing_surface": "wall top",
+      "vertical_clearance": 0,
+      "maximum_width": 0.193,
+      "minimum_width": 0.163,
+      "surface_type": "flat"
+    },
+    "feature_name": "top_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00004f4800000023"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 6,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 1,
+      "Yy": -1,
+      "Zz": -1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": -1,
+        "Zz": -1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 66"
+    ],
+    "position_info": [
+      {
+        "X": -1.0927391974657053e-15,
+        "Y": 0,
+        "Z": -1.912293595564984e-15
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "a49db1ba-682e-491d-81a2-ea3e574dc011",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "stock_to_remove": 0.004,
+      "horizontal_clearance": 0,
+      "width": 8.768,
+      "length": 12.268,
+      "finishing_surface": "wall top",
+      "vertical_clearance": 0,
+      "maximum_width": 0.522,
+      "minimum_width": 0.39,
+      "surface_type": "flat"
+    },
+    "feature_name": "top_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00004ecf00000023"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 6,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -1,
+      "Yy": -1,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -1,
+        "Yy": -1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 65"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": -2.7318479936642632e-15,
+        "Z": 1.8999999999999981
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "01ead258-5730-42eb-aeae-135399196892",
+    "feature_type": "face",
+    "feature_info": {
+      "wall_type": "no walls",
+      "quantity": 1,
+      "horizontal_clearance": 0.17,
+      "width": 8.528,
+      "length": 12.028,
+      "vertical_clearance": 1.5,
+      "bottom_surface_type": "flat"
+    },
+    "feature_name": "bottom_face",
+    "tag_id": {
+      "FloorTag": [
+        "RMNIST_Part2_stp.prt R0000035b00000023"
+      ],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00004bfe00000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R0000028f00000023",
+        "RMNIST_Part2_stp.prt R0000029300000023",
+        "RMNIST_Part2_stp.prt R0000029700000023",
+        "RMNIST_Part2_stp.prt R0000029a00000023",
+        "RMNIST_Part2_stp.prt R0000029600000023",
+        "RMNIST_Part2_stp.prt R0000029200000023",
+        "RMNIST_Part2_stp.prt R0000028e00000023",
+        "RMNIST_Part2_stp.prt R0000028b00000023",
+        "RMNIST_Part2_stp.prt R0000028d00000023",
+        "RMNIST_Part2_stp.prt R0000029100000023",
+        "RMNIST_Part2_stp.prt R0000029500000023",
+        "RMNIST_Part2_stp.prt R0000029900000023",
+        "RMNIST_Part2_stp.prt R0000029800000023",
+        "RMNIST_Part2_stp.prt R0000029400000023",
+        "RMNIST_Part2_stp.prt R0000029000000023",
+        "RMNIST_Part2_stp.prt R0000028c00000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 7,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 1,
+      "Yy": -1,
+      "Zz": -1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": -1,
+        "Zz": -1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar 59"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": -2.1854783949314106e-15,
+        "Z": 1.499999999999998
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "89e03b50-3ff5-49e3-9368-f55bda2a1a44",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "depth": 1.173,
+      "stock_to_remove": 1.215,
+      "horizontal_clearance": 0.17,
+      "length": 1.32,
+      "bottom_type": "through",
+      "vertical_clearance": 0.42,
+      "surface_type": "flat"
+    },
+    "feature_name": "side_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R000048af00000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R0000035000000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 8,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0.707106781186548,
+      "Zz": 0,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 1,
+      "Zx": -1,
+      "Yx": 0.707106781186547,
+      "Zy": 1
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 0,
+        "Yy": 0.707106781186548,
+        "Zz": 0,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 1,
+        "Zx": -0.707106781186548,
+        "Yx": 0.707106781186547,
+        "Zy": 0.707106781186547
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar 52"
+    ],
+    "position_info": [
+      {
+        "X": -5.31657359312881,
+        "Y": 3.5664264068711926,
+        "Z": 0.7199999999999981
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "3c9d52f7-c6ab-4e08-aeaa-63d9f6e95a7d",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "depth": 0.28,
+      "stock_to_remove": 0.004,
+      "horizontal_clearance": 0,
+      "length": 12.028,
+      "bottom_type": "through",
+      "vertical_clearance": 0,
+      "surface_type": "flat"
+    },
+    "feature_name": "side_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00004cef00000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R0000035700000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 8,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 1,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 1,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 0,
+        "Zz": 0,
+        "Xy": 0,
+        "Yz": 1,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": -1
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 61"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": -4.384000000000003,
+        "Z": 1.7599999999999982
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "10841ad7-f64f-4bf2-986c-07750c6b9214",
+    "feature_type": "pocket",
+    "feature_info": {
+      "corner_radius": 0.125,
+      "quantity": 1,
+      "horizontal_clearance": 1.234,
+      "length": 6.25,
+      "vertical_clearance": 0,
+      "floor_radius": 0.03,
+      "wall_type": "flat",
+      "pocket_type": "closed",
+      "depth": 0.05,
+      "min_distance": 0.134,
+      "stock_to_remove": 0.004,
+      "width": 0.5,
+      "floor_type": "solid",
+      "pocket": "solid"
+    },
+    "feature_name": "pocket_2d",
+    "tag_id": {
+      "FloorTag": [
+        "RMNIST_Part2_stp.prt R0000030100000023"
+      ],
+      "CornerRadiusTag": [
+        "RMNIST_Part2_stp.prt R000002e500000023",
+        "RMNIST_Part2_stp.prt R000002e600000023",
+        "RMNIST_Part2_stp.prt R000002e700000023",
+        "RMNIST_Part2_stp.prt R000002e800000023"
+      ],
+      "PlaneEdgesTag": [
+        []
+      ],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00001c8f00000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R000002dd00000023",
+        "RMNIST_Part2_stp.prt R000002e000000023",
+        "RMNIST_Part2_stp.prt R000002e100000023",
+        "RMNIST_Part2_stp.prt R000002e400000023",
+        "RMNIST_Part2_stp.prt R0000030200000023",
+        "RMNIST_Part2_stp.prt R0000030300000023",
+        "RMNIST_Part2_stp.prt R0000030400000023",
+        "RMNIST_Part2_stp.prt R0000030500000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 4,
+      "FloorRadiusTag": [
+        "RMNIST_Part2_stp.prt R000002de00000023",
+        "RMNIST_Part2_stp.prt R000002df00000023",
+        "RMNIST_Part2_stp.prt R000002e200000023",
+        "RMNIST_Part2_stp.prt R000002e300000023"
+      ],
+      "PlaneFaceTag": [
+        "RMNIST_Part2_stp.prt R0000030100000023"
+      ]
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": -1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 0,
+        "Yy": 0,
+        "Zz": -1,
+        "Xy": 1,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 1,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Rectangular Pocket 1"
+    ],
+    "position_info": [
+      {
+        "X": -4.9,
+        "Y": -2.1854783949314106e-15,
+        "Z": -1.912293595564984e-15
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "53249a7d-c238-4993-b570-7431d8b691df",
+    "feature_type": "pocket",
+    "feature_info": {
+      "corner_radius": 0.12,
+      "quantity": 1,
+      "horizontal_clearance": 4.384,
+      "length": 10.998,
+      "vertical_clearance": 0,
+      "floor_radius": 0.12,
+      "wall_type": "flat",
+      "pocket_type": "closed",
+      "depth": 1.765,
+      "min_distance": 6.131,
+      "stock_to_remove": 0.004,
+      "width": 7.568,
+      "floor_type": "solid",
+      "pocket": "solid"
+    },
+    "feature_name": "pocket_2d",
+    "tag_id": {
+      "FloorTag": [
+        "RMNIST_Part2_stp.prt R0000035d00000023"
+      ],
+      "CornerRadiusTag": [
+        "RMNIST_Part2_stp.prt R000002bf00000023"
+      ],
+      "PlaneEdgesTag": [
+        []
+      ],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00001d5300000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R0000034400000023",
+        "RMNIST_Part2_stp.prt R0000034500000023",
+        "RMNIST_Part2_stp.prt R0000034600000023",
+        "RMNIST_Part2_stp.prt R0000034700000023",
+        "RMNIST_Part2_stp.prt R0000034800000023",
+        "RMNIST_Part2_stp.prt R0000034900000023",
+        "RMNIST_Part2_stp.prt R0000034a00000023",
+        "RMNIST_Part2_stp.prt R0000034b00000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 4,
+      "FloorRadiusTag": [
+        "RMNIST_Part2_stp.prt R000002b300000023",
+        "RMNIST_Part2_stp.prt R000002b400000023",
+        "RMNIST_Part2_stp.prt R000002b500000023",
+        "RMNIST_Part2_stp.prt R000002b600000023",
+        "RMNIST_Part2_stp.prt R000002b700000023",
+        "RMNIST_Part2_stp.prt R000002b800000023",
+        "RMNIST_Part2_stp.prt R000002b900000023",
+        "RMNIST_Part2_stp.prt R000002ba00000023",
+        "RMNIST_Part2_stp.prt R000002bb00000023",
+        "RMNIST_Part2_stp.prt R000002bc00000023",
+        "RMNIST_Part2_stp.prt R000002bd00000023",
+        "RMNIST_Part2_stp.prt R000002be00000023",
+        "RMNIST_Part2_stp.prt R000002c000000023",
+        "RMNIST_Part2_stp.prt R000002c100000023",
+        "RMNIST_Part2_stp.prt R000002c200000023",
+        "RMNIST_Part2_stp.prt R000002c300000023",
+        "RMNIST_Part2_stp.prt R000002c400000023",
+        "RMNIST_Part2_stp.prt R000002c500000023",
+        "RMNIST_Part2_stp.prt R000002c600000023",
+        "RMNIST_Part2_stp.prt R000002c700000023",
+        "RMNIST_Part2_stp.prt R000002c800000023",
+        "RMNIST_Part2_stp.prt R000002c900000023",
+        "RMNIST_Part2_stp.prt R000002ca00000023"
+      ],
+      "PlaneFaceTag": [
+        "RMNIST_Part2_stp.prt R0000035d00000023"
+      ]
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Pocket Free Shaped 2"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": -2.253774594773017e-15,
+        "Z": 1.8999999999999981
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "58623ae2-eb15-4cdf-8b5b-d54a97eaf553",
+    "feature_type": "pocket",
+    "feature_info": {
+      "corner_radius": 0.062,
+      "quantity": 1,
+      "horizontal_clearance": 2.559,
+      "length": 1.25,
+      "vertical_clearance": 1.765,
+      "wall_type": "flat",
+      "pocket_type": "closed",
+      "depth": 0.135,
+      "min_distance": 1,
+      "stock_to_remove": 1.765,
+      "width": 1,
+      "floor_type": "through",
+      "pocket": "solid"
+    },
+    "feature_name": "pocket_2d",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [
+        [
+          "RMNIST_Part2_stp.prt R0000054200000023",
+          "RMNIST_Part2_stp.prt R0000053800000023",
+          "RMNIST_Part2_stp.prt R0000054100000023",
+          "RMNIST_Part2_stp.prt R0000054000000023",
+          "RMNIST_Part2_stp.prt R0000053f00000023",
+          "RMNIST_Part2_stp.prt R0000053e00000023",
+          "RMNIST_Part2_stp.prt R0000053d00000023",
+          "RMNIST_Part2_stp.prt R0000053c00000023",
+          "RMNIST_Part2_stp.prt R0000053b00000023",
+          "RMNIST_Part2_stp.prt R0000053a00000023",
+          "RMNIST_Part2_stp.prt R0000053900000023",
+          "RMNIST_Part2_stp.prt R0000054300000023"
+        ]
+      ],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R0000380600000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R000002db00000023",
+        "RMNIST_Part2_stp.prt R000002dc00000023",
+        "RMNIST_Part2_stp.prt R0000030600000023",
+        "RMNIST_Part2_stp.prt R0000030700000023",
+        "RMNIST_Part2_stp.prt R0000030800000023",
+        "RMNIST_Part2_stp.prt R0000030900000023",
+        "RMNIST_Part2_stp.prt R0000030a00000023",
+        "RMNIST_Part2_stp.prt R0000030b00000023",
+        "RMNIST_Part2_stp.prt R0000030c00000023",
+        "RMNIST_Part2_stp.prt R0000030d00000023",
+        "RMNIST_Part2_stp.prt R0000030e00000023",
+        "RMNIST_Part2_stp.prt R0000030f00000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 4,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": [
+        "RMNIST_Part2_stp.prt R0000035e00000023"
+      ]
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Pocket Free Shaped Through 23"
+    ],
+    "position_info": [
+      {
+        "X": 2.193750000000052,
+        "Y": -1.8250000000000033,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "a927a381-bdf1-46c9-8aad-b483f9903000",
+    "feature_type": "pocket",
+    "feature_info": {
+      "corner_radius": 0.125,
+      "quantity": 1,
+      "horizontal_clearance": 4.384,
+      "length": 5.5,
+      "vertical_clearance": 1.765,
+      "wall_type": "flat",
+      "pocket_type": "closed",
+      "depth": 0.135,
+      "min_distance": 4.5,
+      "stock_to_remove": 1.765,
+      "width": 4.5,
+      "floor_type": "through",
+      "pocket": "solid"
+    },
+    "feature_name": "pocket_2d",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [
+        "RMNIST_Part2_stp.prt R000002e900000023",
+        "RMNIST_Part2_stp.prt R000002ea00000023",
+        "RMNIST_Part2_stp.prt R000002eb00000023",
+        "RMNIST_Part2_stp.prt R000002ec00000023",
+        "RMNIST_Part2_stp.prt R000002ed00000023",
+        "RMNIST_Part2_stp.prt R000002ee00000023",
+        "RMNIST_Part2_stp.prt R000002ef00000023",
+        "RMNIST_Part2_stp.prt R000002f000000023",
+        "RMNIST_Part2_stp.prt R000002f100000023",
+        "RMNIST_Part2_stp.prt R000002f200000023",
+        "RMNIST_Part2_stp.prt R000002f300000023",
+        "RMNIST_Part2_stp.prt R000002f400000023",
+        "RMNIST_Part2_stp.prt R000002f500000023",
+        "RMNIST_Part2_stp.prt R000002f600000023",
+        "RMNIST_Part2_stp.prt R000002f700000023",
+        "RMNIST_Part2_stp.prt R000002f800000023",
+        "RMNIST_Part2_stp.prt R000002f900000023",
+        "RMNIST_Part2_stp.prt R000002fa00000023",
+        "RMNIST_Part2_stp.prt R000002fb00000023",
+        "RMNIST_Part2_stp.prt R000002fc00000023",
+        "RMNIST_Part2_stp.prt R000002fd00000023",
+        "RMNIST_Part2_stp.prt R000002fe00000023",
+        "RMNIST_Part2_stp.prt R000002ff00000023",
+        "RMNIST_Part2_stp.prt R0000030000000023"
+      ],
+      "PlaneEdgesTag": [
+        [
+          "RMNIST_Part2_stp.prt R0000058a00000023",
+          "RMNIST_Part2_stp.prt R0000058800000023",
+          "RMNIST_Part2_stp.prt R0000058600000023",
+          "RMNIST_Part2_stp.prt R0000058400000023",
+          "RMNIST_Part2_stp.prt R0000058200000023",
+          "RMNIST_Part2_stp.prt R0000058000000023",
+          "RMNIST_Part2_stp.prt R0000057e00000023",
+          "RMNIST_Part2_stp.prt R0000057c00000023",
+          "RMNIST_Part2_stp.prt R0000057a00000023",
+          "RMNIST_Part2_stp.prt R0000057800000023",
+          "RMNIST_Part2_stp.prt R0000057600000023",
+          "RMNIST_Part2_stp.prt R0000057400000023",
+          "RMNIST_Part2_stp.prt R0000057200000023",
+          "RMNIST_Part2_stp.prt R0000057000000023",
+          "RMNIST_Part2_stp.prt R0000056e00000023",
+          "RMNIST_Part2_stp.prt R0000056c00000023",
+          "RMNIST_Part2_stp.prt R0000056a00000023",
+          "RMNIST_Part2_stp.prt R0000056800000023",
+          "RMNIST_Part2_stp.prt R0000056600000023",
+          "RMNIST_Part2_stp.prt R0000056400000023",
+          "RMNIST_Part2_stp.prt R0000059200000023",
+          "RMNIST_Part2_stp.prt R0000059000000023",
+          "RMNIST_Part2_stp.prt R0000058e00000023",
+          "RMNIST_Part2_stp.prt R0000058c00000023",
+          "RMNIST_Part2_stp.prt R0000059100000023",
+          "RMNIST_Part2_stp.prt R0000059300000023",
+          "RMNIST_Part2_stp.prt R0000056500000023",
+          "RMNIST_Part2_stp.prt R0000058f00000023",
+          "RMNIST_Part2_stp.prt R0000058d00000023",
+          "RMNIST_Part2_stp.prt R0000058b00000023",
+          "RMNIST_Part2_stp.prt R0000058900000023",
+          "RMNIST_Part2_stp.prt R0000058700000023",
+          "RMNIST_Part2_stp.prt R0000058500000023",
+          "RMNIST_Part2_stp.prt R0000058300000023",
+          "RMNIST_Part2_stp.prt R0000058100000023",
+          "RMNIST_Part2_stp.prt R0000057f00000023",
+          "RMNIST_Part2_stp.prt R0000057d00000023",
+          "RMNIST_Part2_stp.prt R0000057b00000023",
+          "RMNIST_Part2_stp.prt R0000057900000023",
+          "RMNIST_Part2_stp.prt R0000057700000023",
+          "RMNIST_Part2_stp.prt R0000057500000023",
+          "RMNIST_Part2_stp.prt R0000057300000023",
+          "RMNIST_Part2_stp.prt R0000057100000023",
+          "RMNIST_Part2_stp.prt R0000056f00000023",
+          "RMNIST_Part2_stp.prt R0000056d00000023",
+          "RMNIST_Part2_stp.prt R0000056b00000023",
+          "RMNIST_Part2_stp.prt R0000056900000023",
+          "RMNIST_Part2_stp.prt R0000056700000023"
+        ]
+      ],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R0000391a00000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R000002e900000023",
+        "RMNIST_Part2_stp.prt R000002ea00000023",
+        "RMNIST_Part2_stp.prt R000002eb00000023",
+        "RMNIST_Part2_stp.prt R000002ec00000023",
+        "RMNIST_Part2_stp.prt R000002ed00000023",
+        "RMNIST_Part2_stp.prt R000002ee00000023",
+        "RMNIST_Part2_stp.prt R000002ef00000023",
+        "RMNIST_Part2_stp.prt R000002f000000023",
+        "RMNIST_Part2_stp.prt R000002f100000023",
+        "RMNIST_Part2_stp.prt R000002f200000023",
+        "RMNIST_Part2_stp.prt R000002f300000023",
+        "RMNIST_Part2_stp.prt R000002f400000023",
+        "RMNIST_Part2_stp.prt R000002f500000023",
+        "RMNIST_Part2_stp.prt R000002f600000023",
+        "RMNIST_Part2_stp.prt R000002f700000023",
+        "RMNIST_Part2_stp.prt R000002f800000023",
+        "RMNIST_Part2_stp.prt R000002f900000023",
+        "RMNIST_Part2_stp.prt R000002fa00000023",
+        "RMNIST_Part2_stp.prt R000002fb00000023",
+        "RMNIST_Part2_stp.prt R000002fc00000023",
+        "RMNIST_Part2_stp.prt R000002fd00000023",
+        "RMNIST_Part2_stp.prt R000002fe00000023",
+        "RMNIST_Part2_stp.prt R000002ff00000023",
+        "RMNIST_Part2_stp.prt R0000030000000023",
+        "RMNIST_Part2_stp.prt R0000032c00000023",
+        "RMNIST_Part2_stp.prt R0000032d00000023",
+        "RMNIST_Part2_stp.prt R0000032e00000023",
+        "RMNIST_Part2_stp.prt R0000032f00000023",
+        "RMNIST_Part2_stp.prt R0000033000000023",
+        "RMNIST_Part2_stp.prt R0000033100000023",
+        "RMNIST_Part2_stp.prt R0000033200000023",
+        "RMNIST_Part2_stp.prt R0000033300000023",
+        "RMNIST_Part2_stp.prt R0000033400000023",
+        "RMNIST_Part2_stp.prt R0000033500000023",
+        "RMNIST_Part2_stp.prt R0000033600000023",
+        "RMNIST_Part2_stp.prt R0000033700000023",
+        "RMNIST_Part2_stp.prt R0000033800000023",
+        "RMNIST_Part2_stp.prt R0000033900000023",
+        "RMNIST_Part2_stp.prt R0000033a00000023",
+        "RMNIST_Part2_stp.prt R0000033b00000023",
+        "RMNIST_Part2_stp.prt R0000033c00000023",
+        "RMNIST_Part2_stp.prt R0000033d00000023",
+        "RMNIST_Part2_stp.prt R0000033e00000023",
+        "RMNIST_Part2_stp.prt R0000033f00000023",
+        "RMNIST_Part2_stp.prt R0000034000000023",
+        "RMNIST_Part2_stp.prt R0000034100000023",
+        "RMNIST_Part2_stp.prt R0000034200000023",
+        "RMNIST_Part2_stp.prt R0000034300000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 4,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": [
+        "RMNIST_Part2_stp.prt R0000035e00000023"
+      ]
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Pocket Free Shaped Through 24"
+    ],
+    "position_info": [
+      {
+        "X": -1.5000000000000033,
+        "Y": -1.5964236712975539e-15,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "c43cec70-75ba-4450-84d7-d3f42518441b",
+    "feature_type": "pocket",
+    "feature_info": {
+      "corner_radius": 0.2,
+      "quantity": 1,
+      "horizontal_clearance": 2.559,
+      "length": 1.25,
+      "vertical_clearance": 1.765,
+      "wall_type": "flat",
+      "pocket_type": "closed",
+      "depth": 0.135,
+      "min_distance": 0.8,
+      "stock_to_remove": 1.765,
+      "width": 0.8,
+      "floor_type": "through",
+      "pocket": "solid"
+    },
+    "feature_name": "pocket_2d",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [
+        "RMNIST_Part2_stp.prt R0000031200000023"
+      ],
+      "PlaneEdgesTag": [
+        [
+          "RMNIST_Part2_stp.prt R0000054800000023",
+          "RMNIST_Part2_stp.prt R0000054700000023",
+          "RMNIST_Part2_stp.prt R0000054600000023",
+          "RMNIST_Part2_stp.prt R0000054500000023",
+          "RMNIST_Part2_stp.prt R0000054400000023",
+          "RMNIST_Part2_stp.prt R0000054900000023"
+        ]
+      ],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00003a2e00000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R0000031000000023",
+        "RMNIST_Part2_stp.prt R0000031100000023",
+        "RMNIST_Part2_stp.prt R0000031200000023",
+        "RMNIST_Part2_stp.prt R0000031300000023",
+        "RMNIST_Part2_stp.prt R0000031400000023",
+        "RMNIST_Part2_stp.prt R0000031500000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 4,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": [
+        "RMNIST_Part2_stp.prt R0000035e00000023"
+      ]
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Pocket Free Shaped Through 25"
+    ],
+    "position_info": [
+      {
+        "X": 2.4499999999999797,
+        "Y": 1.824999999999997,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "8e352bb6-a612-4dea-b5b9-ddc29a1a3178",
+    "feature_type": "pocket",
+    "feature_info": {
+      "corner_radius": 0.125,
+      "quantity": 1,
+      "horizontal_clearance": 1.884,
+      "length": 1.289,
+      "vertical_clearance": 1.765,
+      "wall_type": "flat",
+      "pocket_type": "closed",
+      "depth": 0.135,
+      "min_distance": 1.203,
+      "stock_to_remove": 1.765,
+      "width": 1.203,
+      "floor_type": "through",
+      "pocket": "solid"
+    },
+    "feature_name": "pocket_2d",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [
+        "RMNIST_Part2_stp.prt R0000031b00000023"
+      ],
+      "PlaneEdgesTag": [
+        [
+          "RMNIST_Part2_stp.prt R0000054f00000023",
+          "RMNIST_Part2_stp.prt R0000054e00000023"
+        ]
+      ],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00003b4200000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R0000031a00000023",
+        "RMNIST_Part2_stp.prt R0000031b00000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 4,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": [
+        "RMNIST_Part2_stp.prt R0000035e00000023"
+      ]
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Pocket Free Shaped Through 26"
+    ],
+    "position_info": [
+      {
+        "X": 3.8109834199999977,
+        "Y": -2.5000000000000044,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "35658787-d8a0-4a73-9166-f3540d72fef5",
+    "feature_type": "pocket",
+    "feature_info": {
+      "corner_radius": 0.062,
+      "quantity": 1,
+      "horizontal_clearance": 1.834,
+      "length": 1.1,
+      "vertical_clearance": 1.765,
+      "wall_type": "flat",
+      "pocket_type": "closed",
+      "depth": 0.135,
+      "min_distance": 1.1,
+      "stock_to_remove": 1.765,
+      "width": 1.1,
+      "floor_type": "through",
+      "pocket": "solid"
+    },
+    "feature_name": "pocket_2d",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [
+        [
+          "RMNIST_Part2_stp.prt R0000055400000023",
+          "RMNIST_Part2_stp.prt R0000055200000023",
+          "RMNIST_Part2_stp.prt R0000055800000023",
+          "RMNIST_Part2_stp.prt R0000055600000023",
+          "RMNIST_Part2_stp.prt R0000055300000023",
+          "RMNIST_Part2_stp.prt R0000055900000023",
+          "RMNIST_Part2_stp.prt R0000055700000023",
+          "RMNIST_Part2_stp.prt R0000055500000023"
+        ]
+      ],
+      "ParentTag": [
+        "RMNIST_Part2_stp.prt R00003c5600000023"
+      ],
+      "WallTag": [
+        "RMNIST_Part2_stp.prt R000002d700000023",
+        "RMNIST_Part2_stp.prt R000002d800000023",
+        "RMNIST_Part2_stp.prt R000002d900000023",
+        "RMNIST_Part2_stp.prt R000002da00000023",
+        "RMNIST_Part2_stp.prt R0000031e00000023",
+        "RMNIST_Part2_stp.prt R0000031f00000023",
+        "RMNIST_Part2_stp.prt R0000032000000023",
+        "RMNIST_Part2_stp.prt R0000032100000023"
+      ],
+      "ParentMFDTag": [],
+      "type": 4,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": [
+        "RMNIST_Part2_stp.prt R0000035e00000023"
+      ]
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -4.96699635211684e-16,
+        "Yy": -4.96699635211684e-16,
+        "Zz": 1,
+        "Xy": -1,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 1,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Rectangular Pocket Through 27"
+    ],
+    "position_info": [
+      {
+        "X": 4.300000000000001,
+        "Y": 1.9499999999999973,
+        "Z": 0.13499999999999815
+      }
+    ],
+    "material_info": {
+      "material": "n | nonferrous",
+      "sub_material": "aluminum"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  }
+]

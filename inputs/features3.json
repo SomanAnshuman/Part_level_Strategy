@@ -1,0 +1,1482 @@
+[
+  {
+    "feature_id": "94f34c31-cd15-45dd-ad0b-7d43d8a61285",
+    "feature_type": "hole",
+    "feature_info": {
+      "hole": "solid",
+      "quantity": 4,
+      "depth": 12,
+      "diameter": {
+        "upper_tolerance": 0.1,
+        "value": 6.6,
+        "lower_tolerance": -0.1
+      },
+      "sequential": "no",
+      "horizontal_clearance": 10,
+      "bottom_type": "through",
+      "vertical_clearance": 0,
+      "surface_type": "flat",
+      "counterbore": {
+        "diameter": {
+          "upper_tolerance": 0.1,
+          "value": 11,
+          "lower_tolerance": -0.1
+        },
+        "bottom_radius": 0,
+        "depth": 6.8
+      }
+    },
+    "feature_name": "simple_hole",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R00011cd600000034",
+        "RMFIXTURE_001_stp-op1.prt R00011df000000034",
+        "RMFIXTURE_001_stp-op1.prt R00011f0a00000034",
+        "RMFIXTURE_001_stp-op1.prt R0001202400000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 2,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Counter Bore Through Hole 1",
+      "Counter Bore Through Hole 2",
+      "Counter Bore Through Hole 3",
+      "Counter Bore Through Hole 4"
+    ],
+    "position_info": [
+      {
+        "X": 30,
+        "Y": 10,
+        "Z": 0
+      },
+      {
+        "X": 30,
+        "Y": -10,
+        "Z": 0
+      },
+      {
+        "X": -30,
+        "Y": 10,
+        "Z": 0
+      },
+      {
+        "X": -30,
+        "Y": -10,
+        "Z": 0
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "3344400b-64d2-4ae9-86a1-e7369a76c300",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "stock_to_remove": 4,
+      "horizontal_clearance": 0.566,
+      "width": 39.2,
+      "length": 79.2,
+      "finishing_surface": "complete",
+      "vertical_clearance": 0,
+      "surface_type": "flat"
+    },
+    "feature_name": "top_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001258500000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 6,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -1,
+      "Yy": 1,
+      "Zz": -1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -1,
+        "Yy": 1,
+        "Zz": -1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 14"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": 8.673617379884035e-16,
+        "Z": -11.999999999999998
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "1abaa489-0758-4a5b-89b4-20477d85225d",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "stock_to_remove": 4,
+      "horizontal_clearance": 0.566,
+      "width": 39.2,
+      "length": 79.2,
+      "finishing_surface": "complete",
+      "vertical_clearance": 0,
+      "surface_type": "flat"
+    },
+    "feature_name": "top_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001250d00000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 6,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 1,
+      "Yy": 1,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 13"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": 8.673617379884035e-16,
+        "Z": 0
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "3ccfa1eb-664f-4f5e-b510-b1eee98f7800",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "depth": 11.2,
+      "stock_to_remove": 1,
+      "horizontal_clearance": 0,
+      "length": 80,
+      "bottom_type": "through",
+      "vertical_clearance": 0.4,
+      "surface_type": "flat"
+    },
+    "feature_name": "side_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R000125fd00000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 8,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -1,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 1,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -1,
+        "Yy": 0,
+        "Zz": 0,
+        "Xy": 0,
+        "Yz": 1,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 1
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 15"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": 20,
+        "Z": -5.999999999999998
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "36c50f03-f072-4f3b-9c5c-1b2bae6e8fb3",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "depth": 11.2,
+      "stock_to_remove": 1,
+      "horizontal_clearance": 0,
+      "length": 40,
+      "bottom_type": "through",
+      "vertical_clearance": 0.4,
+      "surface_type": "flat"
+    },
+    "feature_name": "side_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001267500000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 8,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 1,
+      "Yz": 1,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 0,
+        "Yy": 0,
+        "Zz": 0,
+        "Xy": 1,
+        "Yz": 1,
+        "Xz": 0,
+        "Zx": 1,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 16"
+    ],
+    "position_info": [
+      {
+        "X": 40,
+        "Y": 0,
+        "Z": -5.999999999999998
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "8d0f7374-5ecc-4420-a62f-b3a19d02af38",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "depth": 11.2,
+      "stock_to_remove": 1,
+      "horizontal_clearance": 0,
+      "length": 80,
+      "bottom_type": "through",
+      "vertical_clearance": 0.4,
+      "surface_type": "flat"
+    },
+    "feature_name": "side_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R000126ed00000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 8,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 1,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 1,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 0,
+        "Zz": 0,
+        "Xy": 0,
+        "Yz": 1,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": -1
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 17"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": -20,
+        "Z": -5.999999999999998
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "559a31a7-8363-48ac-ae48-4ca3f27c9549",
+    "feature_type": "face",
+    "feature_info": {
+      "quantity": 1,
+      "depth": 11.2,
+      "stock_to_remove": 1,
+      "horizontal_clearance": 0,
+      "length": 40,
+      "bottom_type": "through",
+      "vertical_clearance": 0.4,
+      "surface_type": "flat"
+    },
+    "feature_name": "side_face",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001276500000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 8,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": -1,
+      "Yz": 1,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 0,
+        "Yy": 0,
+        "Zz": 0,
+        "Xy": -1,
+        "Yz": 1,
+        "Xz": 0,
+        "Zx": -1,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 18"
+    ],
+    "position_info": [
+      {
+        "X": -40,
+        "Y": 0,
+        "Z": -5.999999999999998
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "4db641b5-889d-4b88-9096-d4163f12cbb3",
+    "feature_type": "edge",
+    "feature_info": {
+      "hole_type": "through",
+      "quantity": 8,
+      "horizontal_clearance": 10,
+      "hole_depth": 12,
+      "length": 0.4,
+      "angle": 45,
+      "hole_diameter": 6.6,
+      "vertical_clearance": 0,
+      "type": "hole chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R00011cd600000034",
+        "RMFIXTURE_001_stp-op1.prt R00011cd600000034",
+        "RMFIXTURE_001_stp-op1.prt R00011df000000034",
+        "RMFIXTURE_001_stp-op1.prt R00011df000000034",
+        "RMFIXTURE_001_stp-op1.prt R00011f0a00000034",
+        "RMFIXTURE_001_stp-op1.prt R00011f0a00000034",
+        "RMFIXTURE_001_stp-op1.prt R0001202400000034",
+        "RMFIXTURE_001_stp-op1.prt R0001202400000034"
+      ],
+      "WallTag": [
+        "RMFIXTURE_001_stp-op1.prt R0000027000000021",
+        "RMFIXTURE_001_stp-op1.prt R0000027200000021",
+        "RMFIXTURE_001_stp-op1.prt R0000027600000021",
+        "RMFIXTURE_001_stp-op1.prt R0000027800000021",
+        "RMFIXTURE_001_stp-op1.prt R0000027c00000021",
+        "RMFIXTURE_001_stp-op1.prt R0000027e00000021",
+        "RMFIXTURE_001_stp-op1.prt R0000028200000021",
+        "RMFIXTURE_001_stp-op1.prt R0000028400000021"
+      ],
+      "ParentMFDTag": [],
+      "type": 17,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Counter Bore Through Hole 1",
+      "Counter Bore Through Hole 1",
+      "Counter Bore Through Hole 2",
+      "Counter Bore Through Hole 2",
+      "Counter Bore Through Hole 3",
+      "Counter Bore Through Hole 3",
+      "Counter Bore Through Hole 4",
+      "Counter Bore Through Hole 4"
+    ],
+    "position_info": [
+      {
+        "X": 30,
+        "Y": 10,
+        "Z": 0
+      },
+      {
+        "X": 30,
+        "Y": 10,
+        "Z": 0
+      },
+      {
+        "X": 30,
+        "Y": -10,
+        "Z": 0
+      },
+      {
+        "X": 30,
+        "Y": -10,
+        "Z": 0
+      },
+      {
+        "X": -30,
+        "Y": 10,
+        "Z": 0
+      },
+      {
+        "X": -30,
+        "Y": 10,
+        "Z": 0
+      },
+      {
+        "X": -30,
+        "Y": -10,
+        "Z": 0
+      },
+      {
+        "X": -30,
+        "Y": -10,
+        "Z": 0
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "7dfb36f9-e407-430e-886f-8da32f33f10d",
+    "feature_type": "edge",
+    "feature_info": {
+      "hole_type": "through",
+      "quantity": 4,
+      "horizontal_clearance": 10,
+      "hole_depth": 12,
+      "length": 0.693,
+      "angle": 30,
+      "hole_diameter": 6.6,
+      "vertical_clearance": 0,
+      "type": "hole chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R00011cd600000034",
+        "RMFIXTURE_001_stp-op1.prt R00011df000000034",
+        "RMFIXTURE_001_stp-op1.prt R00011f0a00000034",
+        "RMFIXTURE_001_stp-op1.prt R0001202400000034"
+      ],
+      "WallTag": [
+        "RMFIXTURE_001_stp-op1.prt R0000027100000021",
+        "RMFIXTURE_001_stp-op1.prt R0000027700000021",
+        "RMFIXTURE_001_stp-op1.prt R0000027d00000021",
+        "RMFIXTURE_001_stp-op1.prt R0000028300000021"
+      ],
+      "ParentMFDTag": [],
+      "type": 16,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 0,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": 0,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      },
+      {
+        "Xx": 1,
+        "Yy": 1,
+        "Zz": 1,
+        "Xy": 0,
+        "Yz": 0,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Counter Bore Through Hole 1",
+      "Counter Bore Through Hole 2",
+      "Counter Bore Through Hole 3",
+      "Counter Bore Through Hole 4"
+    ],
+    "position_info": [
+      {
+        "X": 30,
+        "Y": 10,
+        "Z": 0
+      },
+      {
+        "X": 30,
+        "Y": -10,
+        "Z": 0
+      },
+      {
+        "X": -30,
+        "Y": 10,
+        "Z": 0
+      },
+      {
+        "X": -30,
+        "Y": -10,
+        "Z": 0
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "b4d819a9-b92c-45d0-886b-6e612af057a5",
+    "feature_type": "edge",
+    "feature_info": {
+      "edge_length": 80,
+      "quantity": 1,
+      "horizontal_clearance": 0.2,
+      "length": 0.4,
+      "angle": 45,
+      "vertical_clearance": 0.2,
+      "type": "edge chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001232900000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 10,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -1,
+      "Yy": 0.707106781186549,
+      "Zz": -1,
+      "Xy": 0,
+      "Yz": -0.707106781186546,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": -1
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -1,
+        "Yy": 0.707106781186549,
+        "Zz": -0.707106781186549,
+        "Xy": 0,
+        "Yz": -0.707106781186546,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": -0.707106781186546
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 9"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": -19.800000000000004,
+        "Z": -11.799999999999997
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "db1010ab-47ee-4d9b-a84e-1496018fa93c",
+    "feature_type": "edge",
+    "feature_info": {
+      "edge_length": 40,
+      "quantity": 1,
+      "horizontal_clearance": 0.2,
+      "length": 0.4,
+      "angle": 45,
+      "vertical_clearance": 0.2,
+      "type": "edge chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R000123a200000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 10,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -6.071532165918802e-16,
+      "Yy": 4.930380657631324e-32,
+      "Zz": -1,
+      "Xy": 1,
+      "Yz": 0.707106781186546,
+      "Xz": 6.071532165918828e-16,
+      "Zx": 1,
+      "Yx": 0.707106781186549,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -6.071532165918802e-16,
+        "Yy": 4.930380657631324e-32,
+        "Zz": -0.707106781186549,
+        "Xy": 1,
+        "Yz": 0.707106781186546,
+        "Xz": 6.071532165918828e-16,
+        "Zx": 0.707106781186546,
+        "Yx": 0.707106781186549,
+        "Zy": 8.586443133426881e-16
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 10"
+    ],
+    "position_info": [
+      {
+        "X": 39.800000000000004,
+        "Y": 6.938893903907228e-15,
+        "Z": -11.800000000000022
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "fd1442c1-7e9a-470e-af45-aa7a95f856e3",
+    "feature_type": "edge",
+    "feature_info": {
+      "edge_length": 40,
+      "quantity": 1,
+      "horizontal_clearance": 0.2,
+      "length": 0.4,
+      "angle": 45,
+      "vertical_clearance": 0.2,
+      "type": "edge chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001241b00000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 10,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -6.071532165918903e-16,
+      "Yy": 0,
+      "Zz": -1,
+      "Xy": 1,
+      "Yz": -0.707106781186552,
+      "Xz": -6.071532165918826e-16,
+      "Zx": -1,
+      "Yx": 0.707106781186543,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -6.071532165918903e-16,
+        "Yy": 0,
+        "Zz": -0.707106781186543,
+        "Xy": 1,
+        "Yz": -0.707106781186552,
+        "Xz": -6.071532165918826e-16,
+        "Zx": -0.707106781186552,
+        "Yx": 0.707106781186543,
+        "Zy": -8.58644313342695e-16
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 11"
+    ],
+    "position_info": [
+      {
+        "X": -39.8,
+        "Y": 0,
+        "Z": -11.799999999999981
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "8b692ac6-8de6-4ae2-b4c2-9713ae9bd300",
+    "feature_type": "edge",
+    "feature_info": {
+      "edge_length": 80,
+      "quantity": 1,
+      "horizontal_clearance": 0.2,
+      "length": 0.4,
+      "angle": 45,
+      "vertical_clearance": 0.2,
+      "type": "edge chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001249400000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 10,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 1,
+      "Yy": -0.707106781186549,
+      "Zz": -1,
+      "Xy": 0,
+      "Yz": -0.707106781186546,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 1
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": -0.707106781186549,
+        "Zz": -0.707106781186549,
+        "Xy": 0,
+        "Yz": -0.707106781186546,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0.707106781186546
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 12"
+    ],
+    "position_info": [
+      {
+        "X": -2.7755575615628914e-14,
+        "Y": 19.800000000000004,
+        "Z": -11.799999999999995
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "fad28476-80b7-41ed-9107-cf438b596e29",
+    "feature_type": "edge",
+    "feature_info": {
+      "edge_length": 80,
+      "quantity": 1,
+      "horizontal_clearance": 0.2,
+      "length": 0.4,
+      "angle": 45,
+      "vertical_clearance": 0.2,
+      "type": "edge chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001214500000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 10,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -1,
+      "Yy": -0.707106781186549,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": -0.707106781186546,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": -1
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -1,
+        "Yy": -0.707106781186549,
+        "Zz": 0.707106781186549,
+        "Xy": 0,
+        "Yz": -0.707106781186546,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": -0.707106781186546
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 5"
+    ],
+    "position_info": [
+      {
+        "X": 0,
+        "Y": -19.800000000000004,
+        "Z": -0.20000000000000456
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "c2b205ce-fb9b-4cf4-9ccc-3ad5da25ce46",
+    "feature_type": "edge",
+    "feature_info": {
+      "edge_length": 40,
+      "quantity": 1,
+      "horizontal_clearance": 0.2,
+      "length": 0.4,
+      "angle": 45,
+      "vertical_clearance": 0.2,
+      "type": "edge chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R000121be00000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 10,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -6.071532165918802e-16,
+      "Yy": -4.930380657631324e-32,
+      "Zz": 1,
+      "Xy": 1,
+      "Yz": 0.707106781186546,
+      "Xz": -6.071532165918828e-16,
+      "Zx": 1,
+      "Yx": -0.707106781186549,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -6.071532165918802e-16,
+        "Yy": -4.930380657631324e-32,
+        "Zz": 0.707106781186549,
+        "Xy": 1,
+        "Yz": 0.707106781186546,
+        "Xz": -6.071532165918828e-16,
+        "Zx": 0.707106781186546,
+        "Yx": -0.707106781186549,
+        "Zy": 8.586443133426881e-16
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 6"
+    ],
+    "position_info": [
+      {
+        "X": 39.80000000000001,
+        "Y": 2.42861286636753e-14,
+        "Z": -0.19999999999997584
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "e0ca429b-fe89-478c-b05c-b995ec43fae9",
+    "feature_type": "edge",
+    "feature_info": {
+      "edge_length": 40,
+      "quantity": 1,
+      "horizontal_clearance": 0.2,
+      "length": 0.4,
+      "angle": 45,
+      "vertical_clearance": 0.2,
+      "type": "edge chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R0001223700000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 10,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": -6.071532165918903e-16,
+      "Yy": 0,
+      "Zz": 1,
+      "Xy": 1,
+      "Yz": -0.707106781186552,
+      "Xz": 6.071532165918826e-16,
+      "Zx": -1,
+      "Yx": -0.707106781186543,
+      "Zy": 0
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": -6.071532165918903e-16,
+        "Yy": 0,
+        "Zz": 0.707106781186543,
+        "Xy": 1,
+        "Yz": -0.707106781186552,
+        "Xz": 6.071532165918826e-16,
+        "Zx": -0.707106781186552,
+        "Yx": -0.707106781186543,
+        "Zy": -8.58644313342695e-16
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 7"
+    ],
+    "position_info": [
+      {
+        "X": -39.8,
+        "Y": -3.469446951953614e-15,
+        "Z": -0.20000000000001666
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  },
+  {
+    "feature_id": "c5070746-48d9-42d2-85fa-ccfc9963361c",
+    "feature_type": "edge",
+    "feature_info": {
+      "edge_length": 80,
+      "quantity": 1,
+      "horizontal_clearance": 0.2,
+      "length": 0.4,
+      "angle": 45,
+      "vertical_clearance": 0.2,
+      "type": "edge chamfer"
+    },
+    "feature_name": "chamfer",
+    "tag_id": {
+      "FloorTag": [],
+      "CornerRadiusTag": [],
+      "PlaneEdgesTag": [],
+      "ParentTag": [
+        "RMFIXTURE_001_stp-op1.prt R000122b000000034"
+      ],
+      "WallTag": [],
+      "ParentMFDTag": [],
+      "type": 10,
+      "FloorRadiusTag": [],
+      "PlaneFaceTag": []
+    },
+    "coordinate_system": {
+      "Xx": 1,
+      "Yy": 0.707106781186549,
+      "Zz": 1,
+      "Xy": 0,
+      "Yz": -0.707106781186546,
+      "Xz": 0,
+      "Zx": 0,
+      "Yx": 0,
+      "Zy": 1
+    },
+    "origin_coordinate_system": [
+      {
+        "Xx": 1,
+        "Yy": 0.707106781186549,
+        "Zz": 0.707106781186549,
+        "Xy": 0,
+        "Yz": -0.707106781186546,
+        "Xz": 0,
+        "Zx": 0,
+        "Yx": 0,
+        "Zy": 0.707106781186546
+      }
+    ],
+    "linked_pmi_features": [],
+    "cam_specific_names": [
+      "Surface Planar Rectangular 8"
+    ],
+    "position_info": [
+      {
+        "X": -2.0816681711721685e-14,
+        "Y": 19.800000000000015,
+        "Z": -0.20000000000001222
+      }
+    ],
+    "material_info": {
+      "material": "p | steel",
+      "sub_material": "alloy steel"
+    },
+    "machine_info": {
+      "name": "Default",
+      "rpm": 20000,
+      "axes": "3"
+    }
+  }
+]

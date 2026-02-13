@@ -1,0 +1,14 @@
+{
+  "rawPartDimensions": {
+    "length": "2.704",
+    "width": "1.255",
+    "height": "1.473"
+  },
+  "machinedPartDimensions": {
+    "length": "2.704",
+    "width": "1.255",
+    "height": "1.473"
+  },
+  "material": "p | steel",
+  "subMaterial": "alloy steel"
+}
