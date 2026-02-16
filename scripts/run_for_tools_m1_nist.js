@@ -22,7 +22,7 @@ const PART_FILES_MAP = {
     features: "features_NIST_1.json",
     part_context: "part_context_NIST_1.json",
     machine_context: "machine_context_NIST_1.json",
-    part_level_strategy: `${PART_STRATEGY_FLOW}/part_strategy_run_9.json`,
+    part_level_strategy: `${PART_STRATEGY_FLOW}/part_strategy_run_10.json`,
   },
   NIST_Part2: {
     features: "features_NIST_2.json",
