@@ -16,8 +16,6 @@ logs/
 outputs/
 
 # --------------------
-# Google Sheets tools
+# Google Sheets credentials
 # --------------------
 credentials.json
-compile_results.py
-compile_tool_results.py

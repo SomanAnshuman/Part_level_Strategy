@@ -49,7 +49,7 @@ const CONFIG = {
     // Assuming the input strategy is the one provided in your prompt
     PART_STRATEGY: path.join(
       BASE_DIR,
-      `outputs/${PART_STRATEGY_FLOW}/part_strategy_run_2.json`,
+      `outputs/${PART_FILES_MAP[PART].part_level_strategy}`,
     ),
   },
   PROMPTS: {
