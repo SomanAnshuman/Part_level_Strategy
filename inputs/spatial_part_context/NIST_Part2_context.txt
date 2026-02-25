@@ -1,0 +1,45 @@
+
+=========================================
+SETUP APPROACH VECTOR: [0, 0, 1] (Total Features: 13)
+=========================================
+Coplanar Groups (Features sharing the same starting plane along this vector):
+   * Plane Value = 1.9: simple_hole (a2f853c4-ca2f-4699-b464-f6a1bb90bf04), top_face (a49db1ba-682e-491d-81a2-ea3e574dc011), pocket_2d (53249a7d-c238-4993-b570-7431d8b691df)
+   * Plane Value = 1.76: side_face (3c9d52f7-c6ab-4e08-aeaa-63d9f6e95a7d)
+   * Plane Value = 0.135: simple_hole (d668d12e-dfe1-4891-a15f-34b0f46420d9), simple_hole (d4653381-71ff-4038-83e8-8e604e9d7b60), simple_hole (764d200f-ddc8-465f-93a3-4208d432c353), simple_hole (3bad64be-b452-4ba5-8e09-0ee41a3cc636), pocket_2d (58623ae2-eb15-4cdf-8b5b-d54a97eaf553), pocket_2d (a927a381-bdf1-46c9-8aad-b483f9903000), pocket_2d (c43cec70-75ba-4450-84d7-d3f42518441b), pocket_2d (8e352bb6-a612-4dea-b5b9-ddc29a1a3178), pocket_2d (35658787-d8a0-4a73-9166-f3540d72fef5)
+
+Depth Penetration Analysis (Relative to Approach Vector):
+- simple_hole (d668d12e-dfe1-4891-a15f-34b0f46420d9): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135) [THROUGH FEATURE]
+- simple_hole (d4653381-71ff-4038-83e8-8e604e9d7b60): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135) [THROUGH FEATURE]
+- simple_hole (764d200f-ddc8-465f-93a3-4208d432c353): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135) [THROUGH FEATURE]
+- simple_hole (3bad64be-b452-4ba5-8e09-0ee41a3cc636): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135) [THROUGH FEATURE]
+- simple_hole (a2f853c4-ca2f-4699-b464-f6a1bb90bf04): Starts at Plane=1.9, Ends at Plane=1.5 (Depth: 0.4) [THROUGH FEATURE]
+- top_face (a49db1ba-682e-491d-81a2-ea3e574dc011): Starts at Plane=1.9, Ends at Plane=1.896 (Depth: 0.004)
+- side_face (3c9d52f7-c6ab-4e08-aeaa-63d9f6e95a7d): Starts at Plane=1.76, Ends at Plane=1.48 (Depth: 0.28) [THROUGH FEATURE]
+- pocket_2d (53249a7d-c238-4993-b570-7431d8b691df): Starts at Plane=1.9, Ends at Plane=0.135 (Depth: 1.765)
+- pocket_2d (58623ae2-eb15-4cdf-8b5b-d54a97eaf553): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135)
+- pocket_2d (a927a381-bdf1-46c9-8aad-b483f9903000): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135)
+- pocket_2d (c43cec70-75ba-4450-84d7-d3f42518441b): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135)
+- pocket_2d (8e352bb6-a612-4dea-b5b9-ddc29a1a3178): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135)
+- pocket_2d (35658787-d8a0-4a73-9166-f3540d72fef5): Starts at Plane=0.135, Ends at Plane=0 (Depth: 0.135)
+
+=========================================
+SETUP APPROACH VECTOR: [0, 0, -1] (Total Features: 3)
+=========================================
+Coplanar Groups (Features sharing the same starting plane along this vector):
+   * Plane Value = NaN: top_face (449726a8-87c3-4817-ba50-28ece0866b11), pocket_2d (10841ad7-f64f-4bf2-986c-07750c6b9214)
+   * Plane Value = -1.5: bottom_face (01ead258-5730-42eb-aeae-135399196892)
+
+Depth Penetration Analysis (Relative to Approach Vector):
+- top_face (449726a8-87c3-4817-ba50-28ece0866b11): Starts at Plane=NaN, Ends at Plane=NaN (Depth: 0.004)
+- bottom_face (01ead258-5730-42eb-aeae-135399196892): Starts at Plane=-1.5, Ends at Plane=-1.5 (Depth: 0)
+- pocket_2d (10841ad7-f64f-4bf2-986c-07750c6b9214): Starts at Plane=NaN, Ends at Plane=NaN (Depth: 0.05)
+
+=========================================
+SETUP APPROACH VECTOR: [-1, 1, 0] (Total Features: 1)
+=========================================
+Coplanar Groups (Features sharing the same starting plane along this vector):
+   * Plane Value = 8.883: side_face (89e03b50-3ff5-49e3-9368-f55bda2a1a44)
+
+Depth Penetration Analysis (Relative to Approach Vector):
+- side_face (89e03b50-3ff5-49e3-9368-f55bda2a1a44): Starts at Plane=8.883, Ends at Plane=7.71 (Depth: 1.173) [THROUGH FEATURE]
+

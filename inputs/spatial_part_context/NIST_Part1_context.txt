@@ -1,0 +1,58 @@
+
+=========================================
+SETUP APPROACH VECTOR: [0, 0, 1] (Total Features: 16)
+=========================================
+Coplanar Groups (Features sharing the same starting plane along this vector):
+   * Plane Value = 50: simple_hole (9ceec37b-4fb5-4bbc-88ac-9e6afe8b4298), top_face (bac7b382-3204-4503-9960-9a0d395a0c43)
+   * Plane Value = 0: simple_hole (59df9f06-9d52-46b7-ba34-ba732597b41a), bottom_face (2c5041f7-2013-4c3c-a787-743e2277eae0), side_face (8ec8a440-d2ca-4f46-ae63-850180ec53c8), side_face (dcce1881-2281-489f-befe-ebdb05447124), side_face (51267bfa-49aa-4829-a761-d9615d143156), side_face (fba73f1a-a352-47b5-a73e-421091a071e2), side_face (7a134959-58a1-49aa-a469-7f456c2213df), side_face (3ad89caf-0b70-42cb-b408-83fd43c0774d), side_face (fb2e19d3-aa96-42aa-adf2-6c664a49452f), side_face (009bdaa6-2f12-46ad-8337-7f6d7aa56264), side_face (c8366c62-3198-413f-903d-56582426decd), slot (f2f82619-d6b8-4635-b467-27698b389d42), pocket_2d (1cf90eb7-607c-44e1-aac7-afb118b74864)
+   * Plane Value = -25: side_face (698d76b2-3062-4a62-aa14-ba5f453df374)
+
+Depth Penetration Analysis (Relative to Approach Vector):
+- simple_hole (9ceec37b-4fb5-4bbc-88ac-9e6afe8b4298): Starts at Plane=50, Ends at Plane=-50 (Depth: 100) [THROUGH FEATURE]
+- simple_hole (59df9f06-9d52-46b7-ba34-ba732597b41a): Starts at Plane=0, Ends at Plane=-50 (Depth: 50) [THROUGH FEATURE]
+- top_face (bac7b382-3204-4503-9960-9a0d395a0c43): Starts at Plane=50, Ends at Plane=49.9 (Depth: 0.1)
+- bottom_face (2c5041f7-2013-4c3c-a787-743e2277eae0): Starts at Plane=0, Ends at Plane=0 (Depth: 0)
+- side_face (8ec8a440-d2ca-4f46-ae63-850180ec53c8): Starts at Plane=0, Ends at Plane=-40.415 (Depth: 40.415) [THROUGH FEATURE]
+- side_face (dcce1881-2281-489f-befe-ebdb05447124): Starts at Plane=0, Ends at Plane=-50 (Depth: 50) [THROUGH FEATURE]
+- side_face (51267bfa-49aa-4829-a761-d9615d143156): Starts at Plane=0, Ends at Plane=-32.5 (Depth: 32.5) [THROUGH FEATURE]
+- side_face (fba73f1a-a352-47b5-a73e-421091a071e2): Starts at Plane=0, Ends at Plane=-50 (Depth: 50) [THROUGH FEATURE]
+- side_face (7a134959-58a1-49aa-a469-7f456c2213df): Starts at Plane=0, Ends at Plane=-50 (Depth: 50) [THROUGH FEATURE]
+- side_face (3ad89caf-0b70-42cb-b408-83fd43c0774d): Starts at Plane=0, Ends at Plane=-100 (Depth: 100) [THROUGH FEATURE]
+- side_face (fb2e19d3-aa96-42aa-adf2-6c664a49452f): Starts at Plane=0, Ends at Plane=-70.711 (Depth: 70.711) [THROUGH FEATURE]
+- side_face (009bdaa6-2f12-46ad-8337-7f6d7aa56264): Starts at Plane=0, Ends at Plane=-50 (Depth: 50) [THROUGH FEATURE]
+- side_face (698d76b2-3062-4a62-aa14-ba5f453df374): Starts at Plane=-25, Ends at Plane=-75 (Depth: 50) [THROUGH FEATURE]
+- side_face (c8366c62-3198-413f-903d-56582426decd): Starts at Plane=0, Ends at Plane=-100 (Depth: 100) [THROUGH FEATURE]
+- slot (f2f82619-d6b8-4635-b467-27698b389d42): Starts at Plane=0, Ends at Plane=-50 (Depth: 50) [THROUGH FEATURE]
+- pocket_2d (1cf90eb7-607c-44e1-aac7-afb118b74864): Starts at Plane=0, Ends at Plane=-50 (Depth: 50)
+
+=========================================
+SETUP APPROACH VECTOR: [0, 1, 0] (Total Features: 1)
+=========================================
+Coplanar Groups (Features sharing the same starting plane along this vector):
+   * Plane Value = 125: simple_hole (57bac540-9f47-4d37-b525-a92fbe4f5ce0)
+
+Depth Penetration Analysis (Relative to Approach Vector):
+- simple_hole (57bac540-9f47-4d37-b525-a92fbe4f5ce0): Starts at Plane=125, Ends at Plane=80 (Depth: 45)
+
+=========================================
+SETUP APPROACH VECTOR: [0, 0, -1] (Total Features: 3)
+=========================================
+Coplanar Groups (Features sharing the same starting plane along this vector):
+   * Plane Value = 100: top_face (283ee965-f4b1-4be4-bc31-42a97267c6d1)
+   * Plane Value = 77.5: side_face (563bcca2-d248-4083-8c1a-f3507d6b7294)
+   * Plane Value = 50: bottom_face (50e5c689-a2ce-47d9-b727-400b5a03a920)
+
+Depth Penetration Analysis (Relative to Approach Vector):
+- top_face (283ee965-f4b1-4be4-bc31-42a97267c6d1): Starts at Plane=100, Ends at Plane=99.9 (Depth: 0.1)
+- bottom_face (50e5c689-a2ce-47d9-b727-400b5a03a920): Starts at Plane=50, Ends at Plane=50 (Depth: 0)
+- side_face (563bcca2-d248-4083-8c1a-f3507d6b7294): Starts at Plane=77.5, Ends at Plane=37.5 (Depth: 40)
+
+=========================================
+SETUP APPROACH VECTOR: [-1, 0, -1] (Total Features: 1)
+=========================================
+Coplanar Groups (Features sharing the same starting plane along this vector):
+   * Plane Value = 145: chamfer (3109f948-5cd8-458c-a565-17122e293ece)
+
+Depth Penetration Analysis (Relative to Approach Vector):
+- chamfer (3109f948-5cd8-458c-a565-17122e293ece): Starts at Plane=145, Ends at Plane=140 (Depth: 5)
+
