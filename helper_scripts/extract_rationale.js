@@ -15,6 +15,7 @@ const BASE_DIR = process.cwd();
 
 // Allow running via CLI: node helper_scripts/extract_rationale.js <PART_NAME>
 const PART = process.argv[2];
+const SHOULD_DECLARE_FILES = true;
 
 if (!PART) {
   console.error(
@@ -65,15 +66,38 @@ const CONFIG = {
     BASE_DIR,
     `inputs/v4/${PART_FILES_MAP[PART].strategy_list}`,
   ),
-  OUTPUT_DIR: path.join(BASE_DIR, "outputs/rationale"),
-  LOG_DIR: path.join(BASE_DIR, "logs/rationale"),
+  OUTPUT_DIR: path.join(
+    BASE_DIR,
+    `outputs/rationale/${SHOULD_DECLARE_FILES ? "by_files" : "wo_files"}`,
+  ),
+  LOG_DIR: path.join(
+    BASE_DIR,
+    `logs/rationale/${SHOULD_DECLARE_FILES ? "by_files" : "wo_files"}`,
+  ),
   PROMPT_PATHS: {
     EXTRACT_RATIONALE: path.join(
       BASE_DIR,
-      "prompts/helper_prompts/extract_rationale.prompt.txt",
+      `prompts/helper_prompts/extract_rationale${SHOULD_DECLARE_FILES ? "_by_files" : ""}.prompt.txt`,
     ),
   },
 };
+
+const RAG_FILES_MAP = {
+  simple_hole: ["SIMPLE_HOLE_RULES_WITH_RATIONALE.txt"],
+  taper_hole: ["TAPER_HOLE_MACHINING_RULES_WITH_RATIONALE.txt"],
+  thread_hole: ["THREAD_HOLE_MACHINING_RULES_WITH_RATIONALE.txt"],
+  side_face: ["SIDE_FACE_MACHINING_RULES_WITH_RATIONALE.txt"],
+  top_face: ["TOP_FACE_MACHINING_RULES_WITH_RATIONALE.txt"],
+  bottom_face: ["BOTTOM_FACE_MACHINING_RULES_WITH_RATIONALE.txt"],
+  groove: ["GROOVE_MACHINING_RULES_WITH_RATIONALE.txt"],
+  pocket_2d: ["POCKET_2D_MACHINING_RULES_WITH_RATIONALE.txt"],
+  slot: ["SLOT_MACHINING_RULES_WITH_RATIONALE.txt"],
+  pocket_with_island: ["POCKET_WITH_ISLAND_MACHINING_RULES_WITH_RATIONALE.txt"],
+  chamfer: ["CHAMFER_MACHINING_RULES_WITH_RATIONALE.txt"],
+  fillet: ["FILLET_MACHINING_RULES_WITH_RATIONALE.txt"],
+};
+
+const common_files = ["STRATEGY_GDNT_RULES_WITH_RATIONALE.txt"];
 
 /* =========================
    DIRECTORY SETUP
@@ -230,7 +254,7 @@ async function processAllFeatures() {
 
     // 4. Render Prompt
     // Passing only the crucial sub-objects to keep context window focused
-    const promptText = renderPrompt(promptTemplate, {
+    let promptText = renderPrompt(promptTemplate, {
       FEATURE_INFO: JSON.stringify(
         {
           feature_type: featureContext.feature_type,
@@ -242,6 +266,22 @@ async function processAllFeatures() {
       ),
       GENERATED_STRATEGY: JSON.stringify(strategyData.passes, null, 2),
     });
+
+    if (SHOULD_DECLARE_FILES) {
+      let rule_files_array =
+        RAG_FILES_MAP[featureContext.feature_name].concat(common_files);
+      if (featureContext.feature_info.hasOwnProperty("island_info")) {
+        rule_files_array = rule_files_array.concat(
+          RAG_FILES_MAP.pocket_with_island,
+        );
+      }
+      let rule_files = "";
+      for (const item of rule_files_array) rule_files += item + "\n";
+
+      promptText = renderPrompt(promptText, {
+        LIST_OF_FILES: rule_files,
+      });
+    }
 
     savePrompt(`feature_${feature_id}`, promptText);
 

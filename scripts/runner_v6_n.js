@@ -15,7 +15,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const BASE_DIR = path.resolve(__dirname, "..");
 
-const PART = "NIST_Part1";
+const PART = "NIST_Part2";
 
 const PART_FILES_MAP = {
   "PM0290-020-01": {
@@ -71,10 +71,10 @@ const CONFIG = {
   ),
   STRATEGY_WITH_RATIONALE_PATH: path.join(
     BASE_DIR,
-    `outputs/rationale/wo_files/${PART_FILES_MAP[PART].strategy_with_rationale}`,
+    `outputs/rationale/by_files/${PART_FILES_MAP[PART].strategy_with_rationale}`,
   ),
-  OUTPUT_DIR: path.join(BASE_DIR, "outputs/v6"),
-  LOG_DIR: path.join(BASE_DIR, "logs/v6"),
+  OUTPUT_DIR: path.join(BASE_DIR, "outputs/v6_n"),
+  LOG_DIR: path.join(BASE_DIR, "logs/v6_n"),
 
   PROMPT_PATHS: {
     PART_STRATEGY: path.join(

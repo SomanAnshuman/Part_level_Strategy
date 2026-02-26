@@ -15,15 +15,17 @@ But the Feature level strategies used will be from KB.
 **v5**  
 Individual Feature level Strategies from KB -> Refinement at individual level using LLM -> Part level Strategy
 
-**v6**
-Individual Feature level Strategies from KB -> Refinement at individual level using LLM -> Part level Strategy
-                                                                    ↑
-                                                Rationale for each strategy using RAG
+**v6**  
+Individual Feature level Strategies from KB -> Refinement at individual level using LLM -> Part level Strategy  
+Rationale for each strategy using RAG __________________________↑  
 
-**v7**
-Individual Feature level Strategies from KB -> Refinement at individual level using LLM -> Part level Strategy
-                                                                                                    ↑
-                                                                                        Spatial Context of part
+**v6_n**  
+Individual Feature level Strategies from KB -> Refinement at individual level using LLM -> Part level Strategy  
+Rationale for each strategy using RAG by specifying files_________↑   
+
+**v7**  
+Individual Feature level Strategies from KB -> Refinement at individual level using LLM -> Part level Strategy  
+Spatial Context of part __________________________________________________________________________↑  
 
 **Flows to generate Tools & Params using previously generated Part level Strategy as input**  
 _Each tools & params prompt in following flows include: 1. Tool recommendation prompt, 2. Params recommendation prompt_  
