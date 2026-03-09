@@ -15,7 +15,8 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const BASE_DIR = path.resolve(__dirname, "..");
 
-const PART = "NIST_Part1";
+// Allow running via CLI: node scripts/runner_v6.js <PART_NAME> --run=<VERSION>
+const PART = process.argv[2];
 
 const PART_FILES_MAP = {
   "PM0290-020-01": {

@@ -15,7 +15,7 @@ const BASE_DIR = process.cwd();
 
 // Allow running via CLI: node helper_scripts/extract_rationale.js <PART_NAME>
 const PART = process.argv[2];
-const SHOULD_DECLARE_FILES = true;
+const SHOULD_DECLARE_FILES = false;
 
 if (!PART) {
   console.error(

@@ -15,32 +15,33 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const BASE_DIR = path.resolve(__dirname, "..");
 
-const PART = "NIST_Part2";
+// Allow running via CLI: node scripts/runner_v6.js <PART_NAME> --run=<VERSION>
+const PART = process.argv[2];
 
 const PART_FILES_MAP = {
   "PM0290-020-01": {
     features: "features1.json",
     part_context: "part_context1.json",
     machine_context: "machine_context1.json",
-    strategy_list: "PM0290-020-01_strategies.json",
+    strategy_with_rationale: "PM0290-020-01_rationale.json",
   },
   "PM0289-020-01": {
     features: "features2.json",
     part_context: "part_context2.json",
     machine_context: "machine_context2.json",
-    strategy_list: "PM0289-020-01_strategies.json",
+    strategy_with_rationale: "PM0289-020-01_rationale.json",
   },
   "FIXTURE-01": {
     features: "features3.json",
     part_context: "part_context3.json",
     machine_context: "machine_context3.json",
-    strategy_list: "FIXTURE-01_strategies.json",
+    strategy_with_rationale: "FIXTURE-01_rationale.json",
   },
   msc_step_1: {
     features: "features4.json",
     part_context: "part_context4.json",
     machine_context: "machine_context4.json",
-    strategy_list: "msc_step_1_strategies.json",
+    strategy_with_rationale: "msc_step_1_rationale.json",
   },
   NIST_Part1: {
     features: "features_NIST_1.json",
