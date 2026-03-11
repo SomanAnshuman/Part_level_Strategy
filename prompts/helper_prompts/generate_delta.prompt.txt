@@ -1,0 +1,43 @@
+You are an expert CNC Machining Strategist and AI Evaluator. Your task is to analyze how an LLM modifies a baseline rule-based Knowledge Base (KB) machining strategy for a specific feature, both with and without being provided the underlying rule rationale.
+
+INPUT DATA:
+Feature Info:
+{{FEATURE_INFO}}
+
+KB Strategy (Baseline):
+{{KB_STRATEGY}}
+
+Rationale (Why the KB made its choices):
+{{RATIONALE}}
+
+Refined v5 (LLM output WITHOUT seeing Rationale):
+{{REFINED_V5}}
+
+Refined v6 (LLM output WITH seeing Rationale):
+{{REFINED_V6}}
+
+TASK:
+Calculate 3 deltas based on the inputs above. You must strictly follow these formatting rules:
+1. Output MUST be valid JSON only.
+2. Use plain text only (no markdown, no bolding, no bullet points).
+3. Be brief and compact: strictly 1 to 2 sentences per delta.
+4. Mix high-level observations (e.g., operation type changes) with deep-dive specifics (e.g., toolpath or tool type changes).
+
+DELTA 1 (KB vs Refined v5):
+Identify what changed. Explain WHY the LLM likely made this change based on what it perceived the geometric or physical requirements of the feature to be. If they are identical, state "No changes detected." and briefly explain why the LLM likely evaluated the baseline as optimal for this feature.
+
+DELTA 2 (KB vs Refined v6):
+Identify what changed. Explain WHY the LLM made this change, specifically factoring in how the provided RATIONALE guided or constrained its decision. If they are identical, state "No changes detected." and briefly explain how the rationale likely validated the baseline strategy.
+
+DELTA 3 (Refined v5 vs Refined v6):
+Identify exactly what changed between the uninformed (v5) and informed (v6) outputs. Focus strictly on factual differences in operations, passes, or tools. If they are identical, state "No changes detected." and explain that the rationale did not alter the LLM's independent evaluation.
+
+Output Format:
+Return ONLY a valid JSON object. No markdown code blocks or conversational text.
+
+JSON SCHEMA:
+{
+  "delta_1": "string",
+  "delta_2": "string",
+  "delta_3": "string"
+}
